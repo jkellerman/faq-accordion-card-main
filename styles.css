@@ -78,6 +78,11 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  cursor: pointer;
+}
+
+.accordion-control:hover {
+  color: var(--Soft-red);
 }
 
 .accordion-panel {
@@ -89,7 +94,7 @@ body {
 .accordion-panel p {
   width: 90%;
   padding-top: 1em;
-  /* display: none; */
+  display: none;
 }
 
 li {
