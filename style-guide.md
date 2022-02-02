@@ -11,7 +11,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-#### Text
+#### Text Primary
 
 - Very dark desaturated blue: hsl(238, 29%, 16%)
 - Soft red: hsl(14, 88%, 65%)
@@ -25,7 +25,7 @@ Background gradient:
 
 ### Neutral
 
-#### Text
+#### Text Neutral
 
 - Very dark grayish blue: hsl(237, 12%, 33%)
 - Dark grayish blue: hsl(240, 6%, 50%)
