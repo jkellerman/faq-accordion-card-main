@@ -52,7 +52,7 @@ body {
   width: 240px;
   top: -9em;
 }
-.bg-pattern {
+.bg-pattern-mobile {
   position: relative;
   top: -6em;
 }
@@ -63,9 +63,10 @@ body {
 
 .accordion-header {
   margin-top: 3.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
   font-size: 2rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .accordion {
