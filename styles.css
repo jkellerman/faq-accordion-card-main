@@ -112,13 +112,19 @@ body {
 .accordion-panel-text {
   width: 90%;
   padding-top: 1em;
-  display: none;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in-out;
 }
 
 .accordion-control.active + .accordion-panel > .accordion-panel-text {
-  display: block;
+  max-height: 247px;
+}
+
+.chevron {
+  transition: transform 0.2s ease-in-out;
 }
 
 .accordion-control.active > .chevron {
-  transform: rotate(180deg);
+  transform: rotate(-180deg);
 }
