@@ -64,14 +64,14 @@ body {
   min-width: 100%;
 }
 
-li {
+.accordion-item {
   padding: 0.75em 0 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.accordion li {
+.accordion.accordion-item {
   list-style: none;
 }
 
@@ -93,7 +93,7 @@ li {
   color: var(--Soft-red);
 }
 
-.accordion-control:active {
+.accordion-control.active {
   color: var(--Very-dark-desaturated-blue);
   font-weight: 700;
 }
@@ -104,8 +104,16 @@ li {
   padding-bottom: 1.5em;
 }
 
-.accordion-panel p {
+.accordion-panel-text {
   width: 90%;
   padding-top: 1em;
   display: none;
+}
+
+.accordion-control.active + .accordion-panel > .accordion-panel-text {
+  display: block;
+}
+
+.accordion-control.active > .chevron {
+  transform: rotate(180deg);
 }
