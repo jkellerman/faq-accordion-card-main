@@ -52,6 +52,15 @@ body {
   width: 240px;
   top: -9em;
 }
+
+.illustration-desktop {
+  display: none;
+}
+
+.illustration-box-desktop {
+  display: none;
+}
+
 .bg-pattern-mobile {
   position: relative;
   top: -6em;
@@ -132,4 +141,35 @@ body {
 
 .accordion-control.active > .chevron {
   transform: rotate(-180deg);
+}
+
+@media (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 63%;
+    margin-top: 8em;
+  }
+
+  .illustration-container {
+    position: relative;
+    width: 35%;
+  }
+
+  .illustration-mobile {
+    display: none;
+  }
+
+  .bg-pattern-mobile {
+    display: none;
+  }
+
+  .accordion-container {
+    max-width: 40%;
+  }
+
+  .accordion-header {
+    margin-top: 1em;
+    text-align: start;
+  }
 }
