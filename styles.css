@@ -22,14 +22,19 @@
   --Light-grayish-blue: hsl(240, 5%, 91%);
 }
 
+html {
+  background: fixed
+    linear-gradient(180deg, var(--Soft-violet), var(--Soft-blue));
+  background-size: cover;
+}
+
 body {
-  background: linear-gradient(180deg, var(--Soft-violet), var(--Soft-blue));
   font-size: 12px;
 }
 
 .container {
   width: 86%;
-  margin: 13em auto 4em;
+  margin: 13em auto 8em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -77,7 +82,7 @@ body {
 
 .accordion-control {
   background-color: white;
-  outline: none;
+  outline: white;
   border: none;
   color: var(--Very-dark-grayish-blue);
   padding: 0;
