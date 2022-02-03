@@ -47,14 +47,18 @@ body {
   position: relative;
 }
 
-.illustration {
+.illustration-container {
   position: absolute;
   width: 240px;
   top: -9em;
 }
 .bg-pattern {
-  position: absolute;
-  top: 0.3em;
+  position: relative;
+  top: -6em;
+}
+
+.bg-pattern-desktop {
+  display: none;
 }
 
 .accordion-header {
