@@ -26,13 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop: 1440px](./screenshot1.png)
-![Mobile: 375px](./screenshot2.png)
+![Desktop: 1440px](images/screenshot1.png)
+![Mobile: 375px](images/screenshot2.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/jkellerman/faq-accordion-card-main)
+- Live Site URL: [Live](https://jkellerman.github.io/faq-accordion-card-main/)
 
 ## My process
 
