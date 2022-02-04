@@ -54,8 +54,7 @@ body {
 }
 
 .illustration-desktop,
-.illustration-box-desktop,
-.bg-pattern-desktop {
+.illustration-box-desktop {
   display: none;
 }
 
@@ -125,6 +124,13 @@ body {
   transition: max-height 0.2s ease-in-out;
 }
 
+/* 
+=================
+Panel animations; the max-height increases and 
+chevron rotates when button is clicked(javascript) 
+================= 
+*/
+
 .accordion-control.active + .accordion-panel > .accordion-panel-text {
   max-height: 247px;
 }
@@ -145,12 +151,17 @@ body {
     margin-top: 8em;
     padding-right: 3em;
     padding-left: 0;
+    background-image: url(images/bg-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-y: -340px;
+    background-position-x: -710px;
+    background-size: 1100px;
   }
 
   .illustration-container {
     position: relative;
     width: 55%;
-    transform: translateY(7.5em);
+    transform: translateY(85px);
   }
 
   .overflow-container {
@@ -165,20 +176,16 @@ body {
 
   .illustration-desktop {
     display: block;
-    transform: translate(-7em, 5em);
+    transform: translate(-85px, 85px);
     position: relative;
   }
 
   .illustration-box-desktop {
     display: block;
-    z-index: 5;
     position: absolute;
-    top: 42%;
-    left: -19%;
+    top: 220px;
+    left: -92.5px;
   }
-
-  /* .bg-pattern-desktop {
-  } */
 
   .accordion-container {
     max-width: 38%;
