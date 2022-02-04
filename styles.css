@@ -78,10 +78,12 @@ body {
 .accordion {
   padding-left: 0;
   min-width: 100%;
+  text-align: start;
+  transform: translateY(20px);
 }
 
 .accordion-item {
-  padding: 0.75em 0 1em;
+  /* padding: 0.75em 0 1em; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,7 +98,7 @@ body {
   outline: white;
   border: none;
   color: var(--Very-dark-grayish-blue);
-  padding: 0;
+  padding: 1em 0 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -116,12 +118,12 @@ body {
 .accordion-panel {
   color: var(--Dark-grayish-blue);
   border-bottom: 1px solid var(--Light-grayish-blue);
-  padding-bottom: 1.5em;
+  padding: 9px 0;
 }
 
 .accordion-panel-text {
   width: 90%;
-  padding-top: 1em;
+  /* padding-top: 1em; */
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-in-out;
@@ -135,7 +137,7 @@ chevron rotates when button is clicked(javascript)
 */
 
 .accordion-control.active + .accordion-panel > .accordion-panel-text {
-  max-height: 247px;
+  max-height: 55px;
 }
 
 .chevron {
@@ -151,15 +153,16 @@ chevron rotates when button is clicked(javascript)
     flex-direction: row;
     justify-content: unset;
     width: 915px;
-    height: 500px;
+    height: 475px;
     margin-top: 8em;
     padding-right: 3em;
     padding-left: 0;
+    padding-bottom: 2em;
     background-image: url(images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
-    background-position-y: -360px;
-    background-position-x: -710px;
-    background-size: 1100px;
+    background-position-y: -270px;
+    background-position-x: -510px;
+    background-size: 900px;
   }
 
   .illustration-container {
@@ -180,14 +183,14 @@ chevron rotates when button is clicked(javascript)
 
   .illustration-desktop {
     display: block;
-    transform: translate(-85px, 85px);
+    transform: translate(-85px, 58px);
     position: relative;
   }
 
   .illustration-box-desktop {
     display: block;
     position: absolute;
-    top: 220px;
+    top: 195px;
     left: -92.5px;
   }
 
