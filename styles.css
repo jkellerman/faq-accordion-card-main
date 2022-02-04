@@ -58,6 +58,10 @@ body {
   display: none;
 }
 
+.overflow-container {
+  max-height: 100px;
+}
+
 .bg-pattern-mobile {
   position: relative;
   top: -6em;

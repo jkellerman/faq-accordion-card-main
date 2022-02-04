@@ -7,7 +7,6 @@ controls.forEach((accordionControl) => {
       controls.forEach((accordionControl) => {
         accordionControl.classList.remove("active");
       });
-
       accordionControl.classList.toggle("active");
     }
   });
