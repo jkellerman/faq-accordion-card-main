@@ -66,7 +66,7 @@ body {
 .accordion-header {
   margin-top: 3.5em;
   margin-bottom: 1em;
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 700;
   text-align: center;
 }
@@ -188,7 +188,6 @@ chevron rotates when button is clicked(javascript)
 
   .accordion-container {
     max-width: 38%;
-    padding-bottom: 2em;
   }
 
   .accordion-header {
