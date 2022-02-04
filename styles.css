@@ -137,7 +137,7 @@ chevron rotates when button is clicked(javascript)
 */
 
 .accordion-control.active + .accordion-panel > .accordion-panel-text {
-  max-height: 55px;
+  max-height: 60px;
 }
 
 .chevron {
