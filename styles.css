@@ -59,7 +59,7 @@ body {
 }
 
 .overflow-container {
-  max-height: 100px;
+  max-height: 0px;
 }
 
 .bg-pattern-mobile {
