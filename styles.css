@@ -98,7 +98,6 @@ body {
   align-items: center;
   width: 100%;
   cursor: pointer;
-  transition: 0.1s;
 }
 
 .accordion-control:hover {
